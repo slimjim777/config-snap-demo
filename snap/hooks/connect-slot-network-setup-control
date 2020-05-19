@@ -1,4 +1,0 @@
-#!/bin/sh
-
-snapctl start "${SNAP_NAME}".init
-

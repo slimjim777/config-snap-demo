@@ -1,0 +1,4 @@
+#!/bin/sh
+
+snapctl start --enable "${SNAP_NAME}.init"
+
