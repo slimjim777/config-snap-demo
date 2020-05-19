@@ -20,8 +20,12 @@ parts:
   netplan:
     plugin: dump
     source: netplan
+    organize:
+      "*": /netplan/
   
   bin:
     plugin: dump
-    source: netplan
+    source: bin
+    organize:
+      "*": /bin/
       
