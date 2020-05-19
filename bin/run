@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cp $SNAP/netplan/*.yaml /etc/netplan/
+
